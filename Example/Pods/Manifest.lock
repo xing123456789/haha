@@ -1,15 +1,36 @@
 PODS:
-  - TestLib (0.1)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - TestLib (0.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - TestLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   TestLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestLib: dfce3b364fef59ab42d690613587065ac71caf62
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  TestLib: 940256d5210478e040d9879a972abddd9ea1ed25
 
 PODFILE CHECKSUM: 5e580a42ce4059a2d9e5b9976b6b1a2077e570c5
 

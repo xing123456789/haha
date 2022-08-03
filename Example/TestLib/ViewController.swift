@@ -8,6 +8,7 @@
 
 import UIKit
 import TestLib
+import AFNetworking
 
 class ViewController: UIViewController {
 
@@ -17,6 +18,8 @@ class ViewController: UIViewController {
         let webview = CustomWebView(frame: CGRect(x: 0, y: 100, width: 300, height: 500))
         webview.openWebView(html: "http://www.baidu.com")
         self.view.addSubview(webview)
+        
+
     }
 
     override func didReceiveMemoryWarning() {
