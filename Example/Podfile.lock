@@ -1,22 +1,15 @@
 PODS:
-  - Alamofire (5.6.2)
-  - TestLib (0.2):
-    - Alamofire
+  - TestLib (0.5)
 
 DEPENDENCIES:
   - TestLib (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - Alamofire
 
 EXTERNAL SOURCES:
   TestLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  TestLib: c24403e92237f742fd1246c6d3149f78c8808a84
+  TestLib: 295c64fe661127b806732d1e80c2224c6058db4e
 
 PODFILE CHECKSUM: 5e580a42ce4059a2d9e5b9976b6b1a2077e570c5
 
