@@ -7,7 +7,7 @@
 
 import UIKit
 import WebKit
-
+import Alamofire
 
 public class CustomWebView: UIView {
 
@@ -111,6 +111,14 @@ extension CustomWebView {
         if webView.canGoBack {
             webView.goBack()
         }
+    }
+    
+    public func loadAFData() {
+        
+        AF.request("https://www.jianshu.com/p/3d2a5ddd0cdd").responseString { response in
+            print(response)
+        }
+
     }
 }
 
